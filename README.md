@@ -4,6 +4,10 @@ A [Claude Code](https://claude.com/claude-code) skill that finds out what is slo
 
 By **Mehran Rasheed** · YouTube: [**Think with MR**](https://www.youtube.com/@ThinkwithMRG)
 
+![wifi-check running in Claude Code: signal, lag, speed, devices and cable line checked, then a verdict with fixes](docs/demo.gif)
+
+<sub>Summary of a real run; the full report also lists devices and router details, which are left out here for privacy.</sub>
+
 Works with any router and any provider. Runs on **macOS**, **Linux** and **Windows**.
 
 | System | Status |
