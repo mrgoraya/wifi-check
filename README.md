@@ -47,17 +47,23 @@ It never changes a router setting without asking you first, and explains what ea
 
 ## Install
 
-Copy the skill folder into your Claude Code skills:
+One line, then type `/wifi-check` in Claude Code.
+
+**macOS / Linux:**
 
 ```bash
-git clone https://github.com/mrgoraya/wifi-check.git
+git clone https://github.com/mrgoraya/wifi-check.git && mkdir -p ~/.claude/skills && cp -R wifi-check/.claude/skills/wifi-check ~/.claude/skills/
 ```
 
-```bash
-cp -R wifi-check/.claude/skills/wifi-check ~/.claude/skills/
+**Windows (PowerShell):**
+
+```powershell
+git clone https://github.com/mrgoraya/wifi-check.git; New-Item -ItemType Directory -Force "$HOME\.claude\skills" | Out-Null; Copy-Item -Recurse -Force wifi-check\.claude\skills\wifi-check "$HOME\.claude\skills\"
 ```
 
-Or open Claude Code inside the cloned folder to use it just there.
+This makes the skill available in every Claude Code session. To use it in one project only, open Claude Code inside the cloned `wifi-check` folder instead.
+
+**Update later:** run `git pull` inside the `wifi-check` folder, then the copy step again.
 
 ## Use
 
