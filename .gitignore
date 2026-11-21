@@ -1,0 +1,5 @@
+.DS_Store
+*.swp
+# local results never belong in the repo
+.wifi-check/
+*.csv
